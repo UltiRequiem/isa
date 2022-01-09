@@ -1,5 +1,4 @@
-// deno-lint-ignore no-explicit-any
-export default function isGeneratorFunction(value: any) {
+export default function isGeneratorFunction(value: unknown) {
   if (typeof value !== "function") return false;
 
   return (
